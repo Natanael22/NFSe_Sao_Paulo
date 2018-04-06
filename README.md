@@ -27,6 +27,7 @@ Encontrar exemplos e informações necessárias para comunicação e envio das R
         1 polling para pegar as linhas marcadas como "gerado" para CancelarNFe.
       
       2.2 BPEL
+        Importante: tive que atribuir o atributo lazyLoading="false" no Composite por causa dos pollings
         Faz a orquestração das informações e atualiza as tabelas necessárias que ficaria disponível para consulta no EBS.
 
     3. OSB
@@ -51,4 +52,9 @@ Encontrar exemplos e informações necessárias para comunicação e envio das R
 
 # Links úteis
     https://svgonugu.com/2015/03/06/service-bus-12c-outbound-ssl/
+    http://www.guj.com.br/t/assinaturas-nfs-e-sao-paulo/135806
+    http://www.guj.com.br/t/nfe-prefeitura-de-sao-paulo/295921/21
+    http://uanscarvalho.com.br/usando-java-callout-no-osb/
+    http://www.javac.com.br/jc/posts/list/106-nfe-assinatura-dos-xmls-de-envio-de-lote-cancelamento-e-inutilizacao-certificado-a1.page
+    
     
