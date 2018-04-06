@@ -19,9 +19,10 @@ Encontrar exemplos e informações necessárias para comunicação e envio das R
     1. Middleware
       Console (http://localhost:7101/console)
       Primeiro foi necessário configurar Service Key Provider conforme o passo 2 - https://svgonugu.com/2015/03/06/service-bus-12c-outbound-ssl/
-      E também configurar o SSL no AdminServer e demais cluster
-      Clica em configuration->SSL->advanced-> e sete no campo Hostname Verification para “Custom Hostname Verifier”
-      E altere o valor para: “weblogic.security.utils.SSLWLSWildcardHostnameVerifier”
+      E também configurar o SSL no AdminServer e demais cluster.
+      Clica em configuration->SSL->advanced-> e sete no campo Hostname Verification para “Custom Hostname Verifier”.
+      Altere o valor para: “weblogic.security.utils.SSLWLSWildcardHostnameVerifier”.
+      Reinicie o Servidor.
      
     2. BPEL
       2.1 DBAdapter
